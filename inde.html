@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Animated OnScroll | AOS</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1><span>Acrylica Painting</span> Gallery</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolor.</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="img/paint-1.png" alt="painting">
+            <div>
+                <h3>Acryllic Painting One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, corporis pariatur! Nostrum ex quasi tempora cupiditate, commodi sint? Similique accusantium saepe distinctio quasi molestias tempora neque natus eveniet cum nobis.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="img/paint-2.png" alt="painting">
+            <div>
+                <h3>Acryllic Painting Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, corporis pariatur! Nostrum ex quasi tempora cupiditate, commodi sint? Similique accusantium saepe distinctio quasi molestias tempora neque natus eveniet cum nobis.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/paint-3.png" alt="painting">
+            <div>
+                <h3>Acryllic Painting Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, corporis pariatur! Nostrum ex quasi tempora cupiditate, commodi sint? Similique accusantium saepe distinctio quasi molestias tempora neque natus eveniet cum nobis.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="img/paint-4.png" alt="painting">
+            <div>
+                <h3>Acryllic Painting Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, corporis pariatur! Nostrum ex quasi tempora cupiditate, commodi sint? Similique accusantium saepe distinctio quasi molestias tempora neque natus eveniet cum nobis.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/paint-5.png" alt="painting">
+            <div>
+                <h3>Acryllic Painting Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, corporis pariatur! Nostrum ex quasi tempora cupiditate, commodi sint? Similique accusantium saepe distinctio quasi molestias tempora neque natus eveniet cum nobis.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({
+        offset: 400,
+        duration: 1000,
+        easing: "ease"
+    });</script>
+</body>
+</html>
